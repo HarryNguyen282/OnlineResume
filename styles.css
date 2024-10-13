@@ -1,0 +1,47 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.container-item {
+  display: flex;
+  align-items: center;
+}
+
+.container-item img {
+  margin-right: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.container-item a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+}
+
+.container-item a:hover {
+  color: #007bff;
+}
+
+.container-item h2 {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+}
+
+.container-item h2:hover {
+  color: #007bff;
+}
